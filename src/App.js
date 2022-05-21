@@ -1,4 +1,5 @@
-import './App.css';
+import "./App.css";
+import logo from './logo.png';
 
 function App() {
   return (
@@ -24,11 +25,71 @@ function App() {
           <div className="floatChild">
             <div className="contacts">
               <p>contacts</p>
-              <div className="contactItem"><p>Izaan Qaiser</p></div>
-              <div className="contactItem"><p>LeBron James</p></div>
-              <div className="contactItem"><p>Will Smith</p></div>
-              <div className="contactItem"><p>Chad Chadder</p></div>
-              <div className="contactItem"><p>Pablo Escobar</p></div>
+              <div className="contactItem">
+                <div className="activityStatus"></div>
+                <div className="iconHolder">
+                  <img src={logo} alt="Logo" className="icon" />
+                </div>
+                <p>
+                  <span className="hide">saas</span>Izaan Qaiser <br />{" "}
+                  <span className="relation">
+                    {" "}
+                    <span className="hide">fwfweegr</span> Chem Classmate
+                  </span>
+                </p>
+              </div>
+              <div className="contactItem">
+                <div className="activityStatus"></div>
+                <div className="iconHolder">
+                  <img src={logo} alt="Logo" className="icon" />
+                </div>
+                <p>
+                  <span className="hide">saas</span>Izaan Qaiser <br />{" "}
+                  <span className="relation">
+                    {" "}
+                    <span className="hide">fwfweegr</span> Chem Classmate
+                  </span>
+                </p>
+              </div>
+              <div className="contactItem">
+                <div className="activityStatus"></div>
+                <div className="iconHolder">
+                  <img src={logo} alt="Logo" className="icon" />
+                </div>
+                <p>
+                  <span className="hide">saas</span>Izaan Qaiser <br />{" "}
+                  <span className="relation">
+                    {" "}
+                    <span className="hide">fwfweegr</span> Chem Classmate
+                  </span>
+                </p>
+              </div>
+              <div className="contactItem">
+                <div className="activityStatus"></div>
+                <div className="iconHolder">
+                  <img src={logo} alt="Logo" className="icon" />
+                </div>
+                <p>
+                  <span className="hide">saas</span>Izaan Qaiser <br />{" "}
+                  <span className="relation">
+                    {" "}
+                    <span className="hide">fwfweegr</span> Chem Classmate
+                  </span>
+                </p>
+              </div>
+              <div className="contactItem">
+                <div className="activityStatus"></div>
+                <div className="iconHolder">
+                  <img src={logo} alt="Logo" className="icon" />
+                </div>
+                <p>
+                  <span className="hide">saas</span>Izaan Qaiser <br />{" "}
+                  <span className="relation">
+                    {" "}
+                    <span className="hide">fwfweegr</span> Chem Classmate
+                  </span>
+                </p>
+              </div>
             </div>
           </div>
           <div className="floatChild">
