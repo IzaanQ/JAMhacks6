@@ -1,5 +1,5 @@
 import "./App.css";
-import logo from './logo.png';
+import logo from "./logo.png";
 
 function App() {
   return (
@@ -24,17 +24,31 @@ function App() {
         <div className="floatContainer">
           <div className="floatChild">
             <div className="contacts">
-              <p>contacts</p>
+              <h1 className="titleOfContacts">contacts</h1>
               <div className="contactItem">
                 <div className="activityStatus"></div>
                 <div className="iconHolder">
                   <img src={logo} alt="Logo" className="icon" />
                 </div>
                 <p>
-                  <span className="hide">saas</span>Izaan Qaiser <br />{" "}
+                  <span className="hide">iiiiii</span> Izaan Qaiser <br />{" "}
                   <span className="relation">
                     {" "}
-                    <span className="hide">fwfweegr</span> Chem Classmate
+                    <span className="hide">iiiiiiii</span> Chem Classmate
+                  </span>
+                </p>
+              </div>
+              <div className="contactItem">
+                <div className="activityOffline"></div>
+                <div className="iconHolder">
+                  <img src={logo} alt="Logo" className="icon" />
+                </div>
+                <p>
+                  <span className="hide">iiii</span>LeBron James
+                  <br />{" "}
+                  <span className="relation">
+                    {" "}
+                    <span className="hide">iiiiiii</span>Basketball Buddy
                   </span>
                 </p>
               </div>
@@ -44,10 +58,23 @@ function App() {
                   <img src={logo} alt="Logo" className="icon" />
                 </div>
                 <p>
-                  <span className="hide">saas</span>Izaan Qaiser <br />{" "}
+                  <span className="hide">iiiiiiifi</span>Will Smith <br />{" "}
                   <span className="relation">
                     {" "}
-                    <span className="hide">fwfweegr</span> Chem Classmate
+                    <span className="hide">ii</span>Personal Bodyguard
+                  </span>
+                </p>
+              </div>
+              <div className="contactItem">
+                <div className="activityOffline"></div>
+                <div className="iconHolder">
+                  <img src={logo} alt="Logo" className="icon" />
+                </div>
+                <p>
+                  <span className="hide">ooiiiii</span>Elon Musk <br />{" "}
+                  <span className="relation">
+                    {" "}
+                    <span className="hide">iiiiiiiiifwgr</span>Best Friend
                   </span>
                 </p>
               </div>
@@ -57,78 +84,64 @@ function App() {
                   <img src={logo} alt="Logo" className="icon" />
                 </div>
                 <p>
-                  <span className="hide">saas</span>Izaan Qaiser <br />{" "}
+                  <span className="hide">iiiiiiiiiiiiiuu</span>Drake <br />{" "}
                   <span className="relation">
                     {" "}
-                    <span className="hide">fwfweegr</span> Chem Classmate
-                  </span>
-                </p>
-              </div>
-              <div className="contactItem">
-                <div className="activityStatus"></div>
-                <div className="iconHolder">
-                  <img src={logo} alt="Logo" className="icon" />
-                </div>
-                <p>
-                  <span className="hide">saas</span>Izaan Qaiser <br />{" "}
-                  <span className="relation">
-                    {" "}
-                    <span className="hide">fwfweegr</span> Chem Classmate
-                  </span>
-                </p>
-              </div>
-              <div className="contactItem">
-                <div className="activityStatus"></div>
-                <div className="iconHolder">
-                  <img src={logo} alt="Logo" className="icon" />
-                </div>
-                <p>
-                  <span className="hide">saas</span>Izaan Qaiser <br />{" "}
-                  <span className="relation">
-                    {" "}
-                    <span className="hide">fwfweegr</span> Chem Classmate
+                    <span className="hide">fweegii</span>Music Teacher
                   </span>
                 </p>
               </div>
             </div>
           </div>
-          <div className="floatChild">
+          <div className="floatChild2">
             <div className="mySchedule">
-              <h1>scheduler</h1>
+              <h1 className="titleTing">my schedula</h1>
               <div className="myScheduleHolder">
-                <div className="busyTimeBlock">busy</div>
-                <div className="workTimeBlock">work</div>
-                <div className="funTimeBlock">fun</div>
-                <div className="newTimeBlock">+</div>
-                <div className="daySchedule">
-                  <div className="slotTask">
-                    <p>busy</p>
-                    <div className="slotTime">
-                      {" "}
-                      <p>
-                        8am - 10am <br />
-                        Office
-                      </p>{" "}
+                <div className="internalTing">
+                  <div className="timeblocks">
+                    <div className="busyTimeBlock">
+                      <span className="blockText">busy</span>
                     </div>
-                  </div>
-                  <div className="slotTask">
-                    <p>rapping</p>
-                    <div className="slotTime">
-                      {" "}
-                      <p>
-                        11am - 1pm <br />
-                        Studio
-                      </p>{" "}
+                    <div className="workTimeBlock">
+                      <span className="blockText">work</span>
                     </div>
+                    <div className="funTimeBlock">
+                      <span className="blockText">fun</span>
+                    </div>
+                    <div className="newTimeBlock">+</div>
                   </div>
-                  <div className="slotTask">
-                    <p>fun</p>
-                    <div className="slotTime">
-                      {" "}
-                      <p>
-                        2pm - 8pm <br />
-                        Room
-                      </p>{" "}
+
+                  <div className="daySchedule">
+                    <div className="date">Monday June 12th</div>
+                    <div className="slotTask">
+                      <p class="busyTing">busy</p>
+                      <div className="slotTime">
+                        {" "}
+                        <p class="timingTing">
+                          8am - 10am <br />
+                          Office
+                        </p>{" "}
+                      </div>
+                    </div>
+                    <div className="slotTask">
+                      <p class="busyTing">rapping</p>
+                      <div className="slotTime">
+                        {" "}
+                        <p class="timingTing">
+                          11am - 1pm <br />
+                          Studio
+                        </p>{" "}
+                      </div>
+                    </div>
+                    <div className="slotTask">
+                      <p class="busyTing">fun</p>
+                      <div className="slotTime">
+                        {" "}
+                        <p class="timingTing">
+                          2pm - 8pm <br />
+                          Room
+                        </p>{" "}
+                      </div>
                     </div>
                   </div>
                 </div>
