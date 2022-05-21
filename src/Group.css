@@ -1,0 +1,76 @@
+* {
+    background-color: #BCAC9B;
+    margin: 0;
+    padding: 0;
+  }
+  
+  .nav-bar {
+    background-color: #7A6C5D;
+    color: #FFFFFF;
+    display: flex;
+    justify-content: space-between;
+    padding-right: 10vh;
+    padding-left: 10vh;
+    padding-top: 1vh;
+    padding-bottom: 2vh;
+  }
+  
+  .nav-bar h1 {
+    background-color: #7A6C5D;
+  }
+  
+  .navItem {
+    background-color: #7A6C5D;
+    margin-top: 0.5vh;
+    display: flex;
+  }
+  
+  .navItem p {
+    background-color: #7A6C5D;
+  }
+  
+  .navThing {
+    background-color: #7A6C5D;
+    margin-right: 8vh;
+    font-size: 25px;
+    font-weight: bolder;
+  }
+  
+  .contacts {
+    background-color: #7A6C5D;
+    color: #FFFFFF;
+    margin-top: 1vh;
+    padding: 3vh;
+    margin-left: 1vh;
+    margin-right: 10vh;
+    border-radius: 40px;
+  }
+  
+  .contacts p {
+    background-color: #7A6C5D;
+    margin-bottom: 3vh;
+    font-size: 5vh;
+    font-weight: bold;
+    margin-left: 2vh;
+  }
+  
+  .contactItem {
+    background-color: #BCAC9B;
+    margin-bottom: 3vh;
+    padding-bottom: 7vh;
+    border-radius: 20px;
+  }
+  
+  .contactItem p {
+    background-color: #BCAC9B;
+    border-radius: 40px;
+  }
+  
+  .floatContainer {
+    padding: 20px;
+  }
+  
+  .floatChild {
+    width: 50%;
+    float:left;
+  }
