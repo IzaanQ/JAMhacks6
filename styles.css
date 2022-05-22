@@ -184,3 +184,160 @@ a {
 .content .insideElements p {
     margin-bottom: 15px;
 }
+
+
+.holdingStuff {
+    display: flex;
+    justify-content: space-around;
+    padding: 4vh;
+    background-color: #7A6C5D;
+    margin-left: 8vh;
+    margin-right: 8vh;
+    margin-top: 6vh;
+    border-radius: 20px;
+    margin-bottom: 6vh;
+}
+
+.groupHolder {
+    padding: 4vh;
+    width: 60vh;
+    border-radius: 20px;
+}
+
+.stateGroupName {
+    color: white;
+    padding-bottom: 3vh;
+    padding-left: 2vh;
+}
+
+.title, .attendees {
+    background-color: #7A6C5D;
+    border-radius: 20px;
+    padding: 2vh;
+    color: white;
+}
+
+.group {
+    padding: 3vh;
+    border-radius: 20px;
+}
+
+.sharedCalendar {
+    width: 99vh;
+    padding: 6vh;
+    padding-top: 3vh;
+    border-radius: 20px;
+    color: white;
+}
+
+.namesHolder {
+    display: flex;
+    justify-content: space-between;
+    padding-top:6vh;
+    padding-bottom: 2vh;
+    color: white; 
+    margin-left: 2vh;
+}
+
+.grid-container {
+  display: grid;
+  grid-template-columns: auto auto auto auto;
+
+  row-gap: 2vh;;
+  column-gap: 4vh;;
+}
+.grid-item {
+  background-color: #BCAC9B;
+  border: 10px solid #7A6C5D;
+  padding: 2vh;
+  border-radius: 20px;
+  font-size: 30px;
+  text-align: center;
+  width: 15vh;
+}
+
+.activity {
+    font-size: 3vh;
+    padding: 0;
+    margin: 0;
+}
+
+.time {
+    font-size: 2vh
+}
+
+.name {
+    background-color: #7A6C5D;
+    padding: 2vh;
+    border-radius: 20px;
+}
+
+.wholeContainer {
+    display: flex;
+    padding: 5vh;
+}
+
+.ls {
+    width: 30%;
+    text-align: center;
+    background-color: #7A6C5D;
+    padding: 4vh;
+    border-radius: 20px;
+}
+
+.text, .textConditions {
+    color:white;
+    background-color: #7A6C5D;
+}
+
+.image {
+    width: 40vh;
+    border-radius: 40vh;
+}
+
+.rs {
+    margin-left: 6vh;
+    background-color: #7A6C5D;
+    width: 100%;
+    padding: 5vh;
+    border-radius: 20px;
+    font-size: 5vh;
+}
+
+.item {
+    background-color: #7A6C5D;
+    color: white;
+    list-style-type: none;
+}
+
+.nameDeclaration {
+    background-color: #7A6C5D;
+    color: white;
+}
+
+.drakePic {
+    border-radius: 20vh;
+    margin-top: 1vh;
+    width: 90px;
+    height: 90px;
+}
+a {
+    background-color:#7A6C5D;
+}
+
+.navItem:hover {
+    font-size: 4.5vh;
+    color: rgb(255, 223, 182);
+}
+
+.contactStatement:hover {
+    color: antiquewhite;
+}
+
+.userName:hover, .userRelation:hover {
+    color: rgb(255, 223, 182);
+}
+
+.time{
+    font-size: 2vh;;
+}
