@@ -1,0 +1,48 @@
+*{
+    margin: 0;
+    padding: 0;
+    background-color: #BCAC9B;
+    font-family: 'Poppins', sans-serif;
+}
+
+.navBar {
+    display: flex;
+    justify-content: space-evenly;
+    background-color: #7A6C5D;
+    padding: 2vh;
+    padding-top: 4vh;
+}
+
+.compName {
+    margin-right: 120vh;
+    color: white;
+    margin-top: 10 vh;
+    background-color: #7A6C5D;
+}
+
+.navItem {
+    color: white;
+    text-decoration: none;
+    font-size: 4vh;
+    background-color: #7A6C5D;
+}
+
+.iconPic, a {
+    height: 30vh;
+    display: flex;
+    padding-left: 20px;
+    justify-content: left;
+}
+
+.body p {
+    color: white;
+    padding-left: 80px;
+    font-size: 20px;
+}
+
+.body .content p {
+    display: flex;
+    color: white;
+    padding-left: 1000px;
+
+}

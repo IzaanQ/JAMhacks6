@@ -1,0 +1,186 @@
+*{
+    margin: 0;
+    padding: 0;
+    background-color: #BCAC9B;
+    font-family: 'Poppins', sans-serif;
+}
+
+.navBar {
+    display: flex;
+    justify-content: space-evenly;
+    background-color: #7A6C5D;
+    padding: 2vh;
+    padding-top: 4vh;
+}
+
+.compName {
+    margin-right: 120vh;
+    color: white;
+    margin-top: 10 vh;
+    background-color: #7A6C5D;
+}
+
+.navItem {
+    color: white;
+    text-decoration: none;
+    font-size: 4vh;
+    background-color: #7A6C5D;
+}
+
+.iconPic, a {
+    height: 10vh;
+}
+
+a {
+    margin-left: 1.5vh;
+    margin-right: 1.5vh;
+}
+
+.contactHoldings{
+    margin: 8vh;
+    margin-left: 8vh;
+}
+
+.contact {
+    display:flex;
+    background-color: #7A6C5D;
+    border-radius: 20px;
+    width: 120%;
+    margin-top: 3vh;
+    color: white;
+    padding: 1vh;
+    margin-left: 3vh;
+}
+
+.userName, .iconPic, .userRelation{
+    background-color: #7A6C5D;
+}
+
+.contactStatement{
+    background-color: #7A6C5D;
+    width: 120%;
+    height: 10vh;
+    padding-top: 2.5vh;
+    padding-left:2.5vh;
+    margin-left: 3vh;
+    border-radius: 20px;
+    color: white;
+}
+
+.userRelation {
+    font-size: 4vh;
+}
+
+.flex {
+    display:flex;
+    width:100%;
+    float: left;
+}
+
+.exampleCalen {
+    margin-top:8vh;
+    margin-left: 20vh;
+    padding: 4vh;
+    padding-top: 0 vh;
+    background-color: #7A6C5D;
+    border-radius: 20px;
+    width: 100vh;
+    height: 83vh;
+}
+
+.example {
+    background-color: #7A6C5D;
+}
+
+.calenholder {
+    display: flex;
+    background-color: #7A6C5D;
+}
+
+.calenStatement {
+    color: white;
+    background-color:#7A6C5D;
+    padding-bottom: 3vh;
+    padding-left: 3vh;
+    padding-top: 0;
+    margin-top: 0;
+}
+
+.button {
+    background-color: #7A6C5D;
+    color: white;
+    text-align: center;
+    padding: 3vh;
+}
+
+.button h1 {
+    height: 10vh;
+    width: 25vh;
+    padding-top: 3.18vh;
+    border-radius: 20px;
+}
+
+.dateStatement {
+    margin-left: 1vh;
+    width: 60vh;
+    color: white;
+    font-size: 4vh;
+    padding: 3vh;
+    border-radius: 20px;
+    margin-top: 3vh;
+}
+
+.sub {
+    background-color:#BCAC9B;
+    color: white;
+    font-size: 3vh;
+}
+
+.exampleItem {
+    background-color: #BCAC9B;
+    border-radius: 20px;
+    color: white;
+    margin: 1vh;
+    margin-top: 2.2vh;
+    width: 60vh;
+    padding: 3vh;
+    display: flex;
+    justify-content: space-between;
+}
+
+.key {
+    border-radius: 10px;
+    background-color: #7A6C5D;
+    width: 28vh;
+}
+
+/* All the BS I do is after this so if fucked up delete things below */
+
+.body p {
+    color: white;
+    padding-left: 10px;
+    font-size: 20px;
+}
+
+.body .content p {
+    display: flex;
+    color: white;
+    padding-left: 1000px;
+
+}
+
+.iconPic, a {
+    display: flex;
+    padding-left: px;
+    justify-content: left;
+}
+
+.content {
+    /* display: flex; */
+    display: inherit;
+    margin-top: -220px;
+    padding-left: 20px;
+}
+.content .insideElements p {
+    margin-bottom: 15px;
+}
