@@ -1,32 +1,48 @@
-// ALL DATA MUST BE ENTERED IN RAILWAY TIME
-
-function classifyAlg(data: string[][][]) {
-  //3d array; 1d = Names; 2d = Sched; 3d = Free time
-
-  let people = data.length; //Number of people / scheds because of data sets
-  console.log(people);
-  let curfewtime: string[] = ["0:7"];
+function algorithm() {
+  let reqtime = "2"
+  let array = "16:00|17:00";
+  let array2 = "17:00|18:00";
+  let begintime1 = parseInt(array.split("|")[0]);
+  let endtime1 = parseInt(array.split("|")[1]);
   
-  let lastStuff: string[] | null = null;
-  for (let x = 0; x < people; x++) {
-    if(lastStuff === null) {
-      lastStuff = data[x][0];
-    } else {
-      if(data[x][0] === lastStuff) {
-        if(x + 1 === people) return lastStuff; 
+  let begintime2 = parseInt(array2.split("|")[0]);
+  let endtime2 = parseInt(array2.split("|")[1]);
+  // console.log(begintime1, begintime2, endtime1, endtime2);
+  
+  switch (begintime1 > begintime2) {
+    case true:
+      switch(endtime1 > endtime2) {
+        case true:
+          if (endtime2 < begintime1) return false;
+        case false:
+          if(endtime1 - begintime1 >= parseInt(reqtime) && endtime2 - begintime2 >= parseInt(reqtime)) return true;
+          else return false;
       }
-    }
+    case false:
+      switch(endtime1 > endtime2) {
+        case true:
+          if (endtime2 - begintime2 >= parseInt(reqtime) && endtime1 - begintime1 >= parseInt(reqtime)) return true;
+          else return false;
+        case false:
+          if(endtime1 <= begintime2) return false;
+      }
+    
+      if (begintime1 === begintime2) {
+        switch (endtime1 > endtime2) {
+          case true:
+            if (endtime2 - begintime2 >= parseInt(reqtime)) return true;
+            else return false;
+          case false:
+            if (endtime1 - begintime1 >= parseInt(reqtime)) return true;
+            else return false;
+        }
+      }
   }
+  return false;
 }
 
-function freeTimeAlg() {
-
-}
-
+console.log(algorithm());
 /*
 USE RAILWAY TIME
-- Check for the current free time instances / Check for all instances of free time coorelating to the groups
-- Check for what matches the closest to everyone's time
-- If free time in curfew time then don't match
-- Closest times link them and return
-- */
+FULL HOURS ONLY DONT USE INCREMENTS
+*/
